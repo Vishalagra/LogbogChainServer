@@ -234,10 +234,10 @@ var options = 	{
 						deployed_name: 'c163f62197b636b628bc533c2a92398f3397507b24206b7cd85aaabf4d94a73a9ff197ba347ac5bb6df8fa926a84c41cd8a87d2c1a7704a418cbf28be37f3a38'
 					}
 				};
-if(process.env.VCAP_SERVICES){
+/*if(process.env.VCAP_SERVICES){
 	console.log('\n[!] looks like you are in bluemix, I am going to clear out the deploy_name so that it deploys new cc.\n[!] hope that is ok budddy\n');
 	options.chaincode.deployed_name = '';
-}
+}*/
 
 // ---- Fire off SDK ---- //
 var chaincode = null;																		//sdk will populate this var in time, lets give it high scope by creating it here
