@@ -228,7 +228,7 @@ var options = 	{
 						//git_url: 'http://gopkg.in/ibm-blockchain/marbles.v2/chaincode',						//GO get http url
 						git_url:'https://github.com/jyoti1310/LogBog/chaincode',
 					
-						//hashed cc name from prev deployment, comment me out to always deploy, uncomment me when its already deployed to skip deploying again
+						// hashed cc name from prev deployment, comment me out to always deploy, uncomment me when its already deployed to skip deploying again
 						//deployed_name: '16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb'
 						//deployed_name: '46bf013ede7240b1d0ac21466e4d5f53f2e541a864adcdae6528aada50a0858e06b21b8399d2cadce699ae1352042b73f9da151ca4d498badb7ef20435d729c2'
 						deployed_name: 'c163f62197b636b628bc533c2a92398f3397507b24206b7cd85aaabf4d94a73a9ff197ba347ac5bb6df8fa926a84c41cd8a87d2c1a7704a418cbf28be37f3a38'
